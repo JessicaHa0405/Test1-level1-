@@ -1,0 +1,114 @@
+body {
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    background-color: #fef4ec;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 300px;
+}
+
+.text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+
+.background_img {
+    width: 100%;
+    height: 500px;
+    background-image: url(./pngtree-aesthetic-background-with-coconut-leaf-and-three-lines-pattern-on-soft-picture-image_1738730.jpg);
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    gap: 100px;
+}
+
+.description {
+    width: 500px;
+}
+
+.img {
+    width: 300px;
+    height: 400px;
+}
+
+.text2 {
+    font-family: Beauty;
+    font-size: 400%;
+}
+
+@font-face {
+    font-family: Beauty;
+    src: url(GeraldinePersonalUseItalic-PK12m.ttf);
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10%;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.products_container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 70px;
+
+}
+
+.products_img {
+    width: 200px;
+    height: 250px;
+}
+
+.p_button {
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+}
+
+.small_button {
+    width: 100px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 30%;
+    border: none;
+    
+}
+
+.small_button2 {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30%;
+    border: none;
+    color: black;
+}
+
+.item {
+    width: 300px;
+    height: 415px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
